@@ -1,0 +1,99 @@
+/* Responsive Alignment for Bootstrap 3
+   URI: https://github.com/calebzahnd/Responsive-Alignment-for-Bootstrap
+   Author: Caleb Zahnd (@CalebZahnd)
+*/
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+.text-left-xs {
+    text-align: left;
+}
+.text-center-xs {
+    text-align: center;
+}
+.text-right-xs {
+    text-align: right;
+}
+.pull-left-xs {
+    float: left !important;
+}
+.pull-right-xs {
+    float: right !important;
+}
+    
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	[class*='pull-left-'], [class*='pull-right-'] {
+		float: none !important;
+	}
+   .pull-left-sm {
+        float: left !important;
+    }
+    .pull-right-sm {
+        float: right !important;
+    }
+	[class*='text-left-'], [class*='text-center-'], [class*='text-right-'] {
+		text-align: none;
+	}
+	.text-left-sm {
+        text-align: left;
+    }
+    .text-center-sm {
+        text-align: center;
+    }
+    .text-right-sm {
+        text-align: right;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	[class*='pull-left-'], [class*='pull-right-'] {
+		float: none !important;
+	}
+   .pull-left-md {
+        float: left !important;
+    }
+    .pull-right-md {
+        float: right !important;
+    }
+	[class*='text-left-'], [class*='text-center-'], [class*='text-right-'] {
+		text-align: none;
+	}
+    .text-left-md {
+        text-align: left;
+    }
+    .text-center-md {
+        text-align: center;
+    }
+    .text-right-md {
+        text-align: right;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	[class*='pull-left-'], [class*='pull-right-'] {
+		float: none !important;
+	}
+   .pull-left-lg {
+        float: left !important;
+    }
+    .pull-right-lg {
+        float: right !important;
+    }
+	[class*='text-left-'], [class*='text-center-'], [class*='text-right-'] {
+		text-align: none;
+	}
+    .text-left-lg {
+        text-align: left;
+    }
+    .text-center-lg {
+        text-align: center;
+    }
+    .text-right-lg {
+        text-align: right;
+    }
+}
