@@ -28,6 +28,7 @@ pull-right-lg
 ```
 
 #### Text Alignment
+```
 text-left-xs
 text-left-sm
 text-left-md
